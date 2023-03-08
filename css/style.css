@@ -1,9 +1,14 @@
+@font-face {
+    font-family: NotoNaskhArabic;
+    src: url(../fonts/NotoNaskhArabic-VariableFont_wght.ttf);
+}
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0;
     direction: rtl;
+    font-family: NotoNaskhArabic;
 }
 /* star header */
 header {
@@ -44,6 +49,9 @@ header {
     margin: 0;
     z-index: 20;
 }
+header .headerr {
+    display: none;
+}
 /* End header */
 
 /* Star hero  */
@@ -83,10 +91,11 @@ header {
     z-index: 10;
 
 }
+
 .hero form button {
     position: absolute;
     top: 61%;
-    right: 69.5%;
+    right: 71%;
     background: #1DA1F2;
     padding: 8px 30px;
     color: #fff;
@@ -1137,13 +1146,2245 @@ body {
     height: 259px;
     object-fit: cover;
 }
+.iteam1-design button{
+    padding: 10px 20px;
+    border: 2px solid #03a9f4;
+}
+.iteam1-design1 button{
+    padding: 10px 20px;
+    border: 2px solid #03a9f4;
+}
+.iteam1-design2 button{
+    padding: 10px 20px;
+    border: 2px solid #03a9f4;
+}
+.iteam1-design3 button{
+    padding: 10px 20px;
+    border: 2px solid #03a9f4;
+}
+.iteam1-design4 button{
+    padding: 10px 20px;
+    border: 2px solid #03a9f4;
+}
+
 /* End The section Services */
 
+/* star ssection project */
+
+
+/* start section the work */
+.hero5 {
+    margin-top: 200px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.about-work {
+    margin-top: 50px;
+}
+
+
+.header1 {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 20px #eee;
+    /* position: fixed; */
+}
+.header1 nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header1 nav .mains {
+    padding: 0;
+    margin: 0;
+}
+.header1 nav .logo img {
+    width: 100px;
+}
+.header1 nav .mains a {
+    margin-left: 20px;
+}
+.header1 span {
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+    color: #7a6f6f;
+}
+.header1 button {
+    font-size: 20px !important;
+
+}
+.header1 {
+    top: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 20;
+}
+
+.hero5 .modal {
+    position: fixed;
+    top: 0;
+    right: -200%;
+    width: 100%;
+    height: 100%;
+    background: #00000015;
+    transition: all 0.9s ease;
+    z-index: 100;
+    /* display: none; */
+}
+.hero5 .modal.ahmad {
+   right: 0;
+}
+
+.hero5 .flex {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.hero5 #btn1 {
+   padding: 10px 30px;
+   color: #fff;
+   background: #03a9f4;
+   border-radius: 5px;
+   border: 2px solid #03a9f4;
+   cursor: pointer;
+   margin-top: -100px;
+   margin-right: 20px;
+   font-size: 15px;
+   font-weight: bold;
+
+}
+.hero5 #btn3 {
+   padding: 10px 30px;
+   color: #fff;
+   background: #03a9f4;
+   border-radius: 5px;
+   border: 2px solid #03a9f4;
+   cursor: pointer;
+   margin-top: -100px;
+   margin-left: 20px;
+   font-size: 15px;
+   font-weight: bold;
+
+}
+.hero5 #btn2  {
+   padding: 10px 30px;
+   color: #fff;
+   background: #03a9f4;
+   border-radius: 5px;
+   border: 2px solid #03a9f4;
+   cursor: pointer;
+   margin-top: 130px;
+   margin-right: 20px;
+   font-size: 15px;
+   font-weight: bold;
+   
+}
+.hero5 .modal .modal-content {
+   width: 50%;
+   background: #fff;
+   margin: -13% auto;
+   padding: 15px;
+   border-radius: 10px;
+}
+.hero5 .modal .modal-content form {
+   width: 80%;
+   margin: 0 auto;
+} 
+.hero5 .modal .modal-content form label {
+   padding-top: 20px;
+}
+.hero5 .modal .modal-content form .ff {
+     font-size: 20px;
+     font-weight: bold;
+}
+.hero5 .modal .modal-content form .input2 {
+   width: 100%;
+   padding: 10px;
+   border: 2px solid #eee;
+}
+.hero5 .modal .modal-content form select {
+   width: 100%;
+   background: #fff;
+   margin: 0 auto;
+   padding: 15px;
+   border-radius: 10px;
+   margin-top: 10px;
+}
+.background1 {
+   background: #eee;
+}
+.about-work .about-work-flex {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.about-work .about-flex1 {
+   width: 31%;
+   height: 325px;
+   background: #fff;
+   border-radius: 10px;
+}
+.about-work .about-flex1 img {
+   width: 300px;
+   height: 300px;
+   margin-right: 18px;
+   margin-top: 10px;
+}
+.about-work .about-flex2 {
+   width: 31%;
+   height: 325px;
+   background: #fff;
+   border-radius: 10px;
+}
+.about-work .about-flex2 img {
+   width: 300px;
+   height: 300px;
+   margin-right: 18px;
+   margin-top: 10px;
+}
+.about-work .about-flex2 {
+   position: relative;
+}
+.about-work .about-flex2 h4 {
+   position: absolute;
+   bottom: 0px;
+   right: 158px;
+   transition: all 0.9s ease;
+   font-size: 20px;
+   
+}
+.about-work .about-flex2 h4:hover {
+   position: absolute;
+   top: 230px;
+   right: 108px;
+}
+.about-work .about-flex3 {
+   width: 31%;
+   height: 325px;
+   background: #fff;
+   border-radius: 10px;
+}
+.about-work .about-flex3 img {
+   width: 300px;
+   height: 300px;
+   margin-right: 18px;
+   margin-top: 10px;
+}
+.about-work .about-flex3 {
+   position: relative;
+}
+.about-work .about-flex3 h4 {
+   position: absolute;
+   bottom: 0px;
+   right: 18px;
+   transition: all 0.9s ease;
+   font-size: 20px;
+   
+}
+.about-work .about-flex3 h4:hover {
+   position: absolute;
+   top: 230px;
+   right: 108px;
+}
+.about-work i {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    position: absolute;
+    right: 30px;
+    bottom: 1px;
+}
+
+
+
+
+.about-work .about-work-flex {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.about-work .about-flex1 {
+   width: 31%;
+   height: 325px;
+   background: #fff;
+   border-radius: 10px;
+}
+.about-work .about-flex1 img {
+   width: 300px;
+   height: 300px;
+   margin-right: 18px;
+   margin-top: 10px;
+}
+.about-work .about-flex2 {
+   width: 31%;
+   height: 325px;
+   background: #fff;
+   border-radius: 10px;
+}
+.about-work .about-flex2 img {
+   width: 300px;
+   height: 300px;
+   margin-right: 18px;
+   margin-top: 10px;
+}
+.about-work .about-flex2 {
+   position: relative;
+}
+.about-work .about-flex2 h4 {
+   position: absolute;
+   bottom: 0px;
+   right: 108px;
+   transition: all 0.9s ease;
+   font-size: 20px;
+   
+}
+.about-work .about-flex2 h4:hover {
+   position: absolute;
+   top: 230px;
+   right: 108px;
+}
+.about-work .about-flex3 {
+   width: 31%;
+   height: 325px;
+   background: #fff;
+   border-radius: 10px;
+}
+.about-work .about-flex3 img {
+   width: 300px;
+   height: 300px;
+   margin-right: 18px;
+   margin-top: 10px;
+}
+.about-work .about-flex3 {
+   position: relative;
+}
+.about-work .about-flex3 h4 {
+   position: absolute;
+   bottom: 0px;
+   right: 108px;
+   transition: all 0.9s ease;
+   font-size: 20px;
+   text-shadow: 0 0 10px red;
+}
+.about-work .about-flex3 h4:hover {
+   position: absolute;
+   top: 230px;
+   right: 108px;
+}
+
+
+
+
+
+
+.about-work .about-work-flex1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+ }
+ .about-work .about-flex2 {
+    width: 31%;
+    height: 325px;
+    background: #fff;
+    border-radius: 10px;
+ }
+ .about-work .about-flex2 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 18px;
+    margin-top: 10px;
+ }
+ .about-work .about-flex2 h4 {
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    transition: all 0.9s ease;
+    font-size: 20px;
+    text-shadow: 0 0 10px red;
+ }
+ .about-work .about-flex2 h4:hover {
+    position: absolute;
+    top: 230px;
+    right: 70px;
+ }
+ .about-work .about-flex3 {
+    width: 31%;
+    height: 325px;
+    background: #fff;
+    border-radius: 10px;
+ }
+ .about-work .about-flex3 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 18px;
+    margin-top: 10px;
+ }
+ .about-work .about-flex3 {
+    position: relative;
+ }
+ .about-work .about-flex3 h4 {
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    transition: all 0.9s ease;
+    font-size: 20px;
+    text-shadow: 0 0 10px red;
+ }
+ .about-work .about-flex3 h4:hover {
+    position: absolute;
+    top: 230px;
+    right: 70px;
+ }
+ .about-work .about-flex4 {
+    width: 31%;
+    height: 325px;
+    background: #fff;
+    border-radius: 10px;
+ }
+ .about-work .about-flex4 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 18px;
+    margin-top: 10px;
+ }
+ .about-work .about-flex4 {
+    position: relative;
+ }
+ .about-work .about-flex4 h4 {
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    transition: all 0.9s ease;
+    font-size: 20px;
+    text-shadow: 0 0 10px red;
+ }
+ .about-work .about-flex4 h4:hover {
+    position: absolute;
+    top: 230px;
+    right: 70px;
+ }
+
+
+
+
+
+
+
+ .about-work .about-work-flex2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+ }
+ .about-work .about-flex5 {
+    width: 31%;
+    height: 325px;
+    background: #fff;
+    border-radius: 10px;
+ }
+ .about-work .about-flex5 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 18px;
+    margin-top: 10px;
+ }
+ .about-work .about-flex5 h4 {
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    transition: all 0.9s ease;
+    font-size: 20px;
+    text-shadow: 0 0 10px red;
+ }
+ .about-work .about-flex5 h4:hover {
+    position: absolute;
+    top: 230px;
+    right: 70px;
+ }
+ .about-work .about-flex6 {
+    width: 31%;
+    height: 325px;
+    background: #fff;
+    border-radius: 10px;
+ }
+ .about-work .about-flex6 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 18px;
+    margin-top: 10px;
+ }
+ .about-work .about-flex6 {
+    position: relative;
+ }
+ .about-work .about-flex6 h4 {
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    transition: all 0.9s ease;
+    font-size: 20px;
+    text-shadow: 0 0 10px red;
+ }
+ .about-work .about-flex3 h6:hover {
+    position: absolute;
+    top: 230px;
+    right: 70px;
+ }
+ .about-work .about-flex7 {
+    width: 31%;
+    height: 325px;
+    background: #fff;
+    border-radius: 10px;
+ }
+ .about-work .about-flex7 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 18px;
+    margin-top: 10px;
+ }
+ .about-work .about-flex7 {
+    position: relative;
+ }
+ .about-work .about-flex7 h4 {
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    transition: all 0.9s ease;
+    font-size: 20px;
+    text-shadow: 0 0 10px red;
+ }
+ .about-work .about-flex7 h4:hover {
+    position: absolute;
+    top: 230px;
+    right: 108px;
+ }
+
+
+
+
+
+
+
+
+ .about-work .about-work-flex3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+ }
+ .about-work .about-flex8 {
+    width: 31%;
+    height: 325px;
+    background: #fff;
+    border-radius: 10px;
+ }
+ .about-work .about-flex8 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 18px;
+    margin-top: 10px;
+ }
+ .about-work .about-flex8 h4 {
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    transition: all 0.9s ease;
+    font-size: 20px;
+    text-shadow: 0 0 10px red;
+ }
+ .about-work .about-flex8 h4:hover {
+    position: absolute;
+    top: 230px;
+    right: 70px;
+ }
+ .about-work .about-flex9 {
+    width: 31%;
+    height: 325px;
+    background: #fff;
+    border-radius: 10px;
+ }
+ .about-work .about-flex9 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 18px;
+    margin-top: 10px;
+ }
+ .about-work .about-flex9 {
+    position: relative;
+ }
+ .about-work .about-flex9 h4 {
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    transition: all 0.9s ease;
+    font-size: 20px;
+    text-shadow: 0 0 10px red;
+ }
+ .about-work .about-flex9 h4:hover {
+    position: absolute;
+    top: 230px;
+    right: 70px;
+ }
+ .about-work .about-flex10 {
+    width: 31%;
+    height: 325px;
+    background: #fff;
+    border-radius: 10px;
+ }
+ .about-work .about-flex10 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 18px;
+    margin-top: 10px;
+ }
+ .about-work .about-flex10 {
+    position: relative;
+ }
+ .about-work .about-flex10 h4 {
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    transition: all 0.9s ease;
+    font-size: 20px;
+    text-shadow: 0 0 10px red;
+ }
+ .about-work .about-flex10 h4:hover {
+    position: absolute;
+    top: 230px;
+    right: 108px;
+ }
+
+
+
+
+ .about-work .about-work-flex4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+ }
+ .about-work .about-flex9 {
+    width: 31%;
+    height: 325px;
+    background: #fff;
+    border-radius: 10px;
+ }
+ .about-work .about-flex9 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 18px;
+    margin-top: 10px;
+ }
+ .about-work .about-flex9 h4 {
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    transition: all 0.9s ease;
+    font-size: 20px;
+    text-shadow: 0 0 10px red;
+ }
+ .about-work .about-flex9 h4:hover {
+    position: absolute;
+    top: 230px;
+    right: 70px;
+ }
+ .about-work .about-flex10 {
+    width: 31%;
+    height: 325px;
+    background: #fff;
+    border-radius: 10px;
+ }
+ .about-work .about-flex10 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 18px;
+    margin-top: 10px;
+ }
+ .about-work .about-flex10 {
+    position: relative;
+ }
+ .about-work .about-flex10 h4 {
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    transition: all 0.9s ease;
+    font-size: 20px;
+    text-shadow: 0 0 10px red;
+ }
+ .about-work .about-flex11 h6:hover {
+    position: absolute;
+    top: 230px;
+    right: 70px;
+ }
+ .about-work .about-flex11 {
+    width: 31%;
+    height: 325px;
+    background: #fff;
+    border-radius: 10px;
+ }
+ .about-work .about-flex11 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 18px;
+    margin-top: 10px;
+ }
+ .about-work .about-flex11 {
+    position: relative;
+ }
+ .about-work .about-flex11 h4 {
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    transition: all 0.9s ease;
+    font-size: 20px;
+    text-shadow: 0 0 10px red;
+ }
+ .about-work .about-flex11 h4:hover {
+    position: absolute;
+    top: 230px;
+    right: 108px;
+ }
+
+
+
+
+ .about-work .about-work-flex5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+ }
+ .about-work .about-flex12 {
+    width: 31%;
+    height: 325px;
+    background: #fff;
+    border-radius: 10px;
+ }
+ .about-work .about-flex12 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 18px;
+    margin-top: 10px;
+ }
+ .about-work .about-flex12 h4 {
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    transition: all 0.9s ease;
+    font-size: 20px;
+    text-shadow: 0 0 10px red;
+ }
+ .about-work .about-flex12 h4:hover {
+    position: absolute;
+    top: 230px;
+    right: 70px;
+ }
+ .about-work .about-flex13 {
+    width: 31%;
+    height: 325px;
+    background: #fff;
+    border-radius: 10px;
+ }
+ .about-work .about-flex13 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 18px;
+    margin-top: 10px;
+ }
+ .about-work .about-flex13 {
+    position: relative;
+ }
+ .about-work .about-flex13 h4 {
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    transition: all 0.9s ease;
+    font-size: 20px;
+    text-shadow: 0 0 10px red;
+ }
+ .about-work .about-flex14 h6:hover {
+    position: absolute;
+    top: 230px;
+    right: 70px;
+ }
+ .about-work .about-flex14 {
+    width: 31%;
+    height: 325px;
+    background: #fff;
+    border-radius: 10px;
+ }
+ .about-work .about-flex14 img {
+    width: 300px;
+    height: 300px;
+    margin-right: 18px;
+    margin-top: 10px;
+ }
+ .about-work .about-flex14 {
+    position: relative;
+ }
+ .about-work .about-flex14 h4 {
+    position: absolute;
+    bottom: 0px;
+    right: 70px;
+    transition: all 0.9s ease;
+    font-size: 20px;
+    text-shadow: 0 0 10px red;
+ }
+ .about-work .about-flex14 h4:hover {
+    position: absolute;
+    top: 230px;
+    right: 108px;
+ }
+
+ .header1 .header-btn1 {
+    padding: 10px 20px;
+    border: 2px solid #03a9f4;
+    background: #fff;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .header1 .header-btn2 {
+    padding: 10px 20px;
+    border: 2px solid #03a9f4;
+    background: #03a9f4;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+
+
+
+ /* start section inform */
+.about-enform {
+    margin-top: 50px;
+    background: #eee;
+}
+.container11 {
+    width: 90%;
+    margin: 0 auto;
+}
+.team-enform {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-enform .iteam-enform {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+.about-enform .iteam-enform1 {   
+    width: 25%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    width: 23%;
+}
+.about-enform .iteam-enform1 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform1 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform1 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform1 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform1 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform1 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+.about-enform .iteam-enform2 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform2 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform2 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform2 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform2 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform2 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform2 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+.about-enform .iteam-enform3 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform3 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform3 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform3 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform3 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform3 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform3 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+
+
+
+
+
+.team-enform1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.about-enform .iteam-enform1 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform1 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform1 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform1 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform1 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform1 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform1 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+.about-enform .iteam-enform2 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform2 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform2 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform2 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform2 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform2 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform2 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+
+.about-enform .iteam-enform3 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform3 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform3 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform3 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform3 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform3 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform3 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+.about-enform .iteam-enform4 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform4 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform4 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform4 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform4 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform4 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform4 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.team-enform2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.about-enform .iteam-enform5 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform5 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform5 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform5 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform5 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform5 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform5 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+.about-enform .iteam-enform6 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform6 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform6 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform6 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform6 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform6 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform6 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+
+.about-enform .iteam-enform7 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform7 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform7 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform7 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform7 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform7 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform7 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+.about-enform .iteam-enform8 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform8 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform8 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform8 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform8 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform8 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform8 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+
+
+
+
+
+
+.team-enform3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.about-enform .iteam-enform9 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform9 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform9 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform9 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform9 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform9 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform9 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+.about-enform .iteam-enform10 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform10 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform10 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform10 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform10 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform10 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform10 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+
+.about-enform .iteam-enform11 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform11 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform11 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform11 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform11 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform11 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform11 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+.about-enform .iteam-enform12 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform12 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform12 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform12 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform12 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform12 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform12 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.team-enform4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.about-enform .iteam-enform13 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform13 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform13 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform13 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform13 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform13 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform13 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+.about-enform .iteam-enform14 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform14 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform14 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform14 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform14 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform14 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform14 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+
+.about-enform .iteam-enform15 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform15 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform15 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform15 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform15 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform15 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform15 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+.about-enform .iteam-enform16 {   
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.about-enform .iteam-enform16 #i1 {
+    position: absolute;
+    right: 41px;
+    top: 200px;
+    color: #968e8e;
+}
+.about-enform .iteam-enform16 img {
+    border-radius: 50%;
+    margin-right: 86px;
+    margin-top: 20px;
+}
+.about-enform .iteam-enform16 h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform16 p {
+    text-align: center;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform16 .icon-enform  {
+    text-align: center;
+    color: #ff9800;
+    padding-top: 10px;
+}
+.about-enform .iteam-enform16 button {
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 0;
+    font-size: 20px;
+    margin-right: 15px;
+
+
+}
+
+.last button {
+    padding: 10px 30px;
+    color: #fff;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+ /* End section inform */
+
+/* star footer */
+.footer-work {
+    background: #fff;
+    margin-top: 200px;
+}
+.footer-work .footer-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.footer-work .footer-flex ul li {
+    padding-top: 30px;
+    font-size: 20px;
+    color: #434040;
+}
+.team-footer .icon-footer #icon1 {
+    color: #3b5998;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+.team-footer .icon-footer #icon2 {
+    color: #3b5998;
+    font-size: 30px;
+    padding-right: 20px;
+}
+.team-footer .icon-footer #icon3 {
+    color: #3b5998;
+    font-size: 30px;
+    padding-right: 20px;
+}
+.team-footer .icon-footer #icon4 {
+    color: #3b5998;
+    font-size: 30px;
+    padding-right: 20px;
+}
+.team-footer .icon-footer #icon5 {
+    color: #3b5998;
+    font-size: 30px;
+    padding-right: 20px;
+}
+/* End footer */
+
+/* start section project */
+.about-project .team-project {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+    height: 250px;
+} 
+.about-project .team-project a {
+    color: #197ece;
+}
+.about-project .team-project h2 {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.about-project .team-project p {
+    padding-right: 20px;
+    width: 50%;
+}
+.about-project .team-project img {
+    border-radius: 50%;
+    width: 60px;
+    border: 3px solid #eee;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.about-project .team-project h5 {
+        margin-right: 85px;
+        margin-top: -30px;
+}
+.about-project .iteam-project {
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    width: 30%;
+}
+.about-project .iteam-project button {
+    padding: 10px 40px;
+    color: #fff;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 50px;
+    display: none;
+}
+
+
+
+
+
+
+.about-project .team-project1 {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+    height: 250px;
+} 
+.about-project .team-project1 a {
+    color: #197ece;
+}
+.about-project .team-project1 h2 {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.about-project .team-project1 p {
+    padding-right: 20px;
+    width: 50%;
+}
+.about-project .team-project1 img {
+    border-radius: 50%;
+    width: 60px;
+    border: 3px solid #eee;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.about-project .team-project1 h5 {
+        margin-right: 85px;
+        margin-top: -30px;
+}
+.about-project .iteam-project1 {
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    width: 30%;
+}
+.about-project .iteam-project1 button {
+    padding: 10px 40px;
+    color: #fff;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 50px;
+    display: none;
+}
+
+
+
+
+
+.about-project .team-project2 {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+    height: 250px;
+} 
+.about-project .team-project2 a {
+    color: #197ece;
+}
+.about-project .team-project2 h2 {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.about-project .team-project2 p {
+    padding-right: 20px;
+    width: 50%;
+}
+.about-project .team-project2 img {
+    border-radius: 50%;
+    width: 60px;
+    border: 3px solid #eee;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.about-project .team-project2 h5 {
+        margin-right: 85px;
+        margin-top: -30px;
+}
+.about-project .iteam-project2 {
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    width: 30%;
+}
+.about-project .iteam-project2 button {
+    padding: 10px 40px;
+    color: #fff;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 50px;
+    display: none;
+}
+
+
+
+
+
+
+.about-project .team-project3 {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+    height: 250px;
+} 
+.about-project .team-project3 a {
+    color: #197ece;
+}
+.about-project .team-project3 h2 {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.about-project .team-project3 p {
+    padding-right: 20px;
+    width: 50%;
+}
+.about-project .team-project3 img {
+    border-radius: 50%;
+    width: 60px;
+    border: 3px solid #eee;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.about-project .team-project3 h5 {
+        margin-right: 85px;
+        margin-top: -30px;
+}
+.about-project .iteam-project3 {
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    width: 30%;
+}
+.about-project .iteam-project3 button {
+    padding: 10px 40px;
+    color: #fff;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 50px;
+    display: none;
+}
+
+
+
+.about-project .team-project4 {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+    height: 250px;
+} 
+.about-project .team-project4 a {
+    color: #197ece;
+}
+.about-project .team-project4 h2 {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.about-project .team-project4 p {
+    padding-right: 20px;
+    width: 50%;
+}
+.about-project .team-project4 img {
+    border-radius: 50%;
+    width: 60px;
+    border: 3px solid #eee;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.about-project .team-project4 h5 {
+        margin-right: 85px;
+        margin-top: -30px;
+}
+.about-project .iteam-project4 {
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    width: 30%;
+}
+.about-project .iteam-project4 button {
+    padding: 10px 40px;
+    color: #fff;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 50px;
+    display: none;
+}
+
+
+
+
+
+.about-project .team-project5 {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+    height: 250px;
+} 
+.about-project .team-project5 a {
+    color: #197ece;
+}
+.about-project .team-project5 h2 {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.about-project .team-project5 p {
+    padding-right: 20px;
+    width: 50%;
+}
+.about-project .team-project5 img {
+    border-radius: 50%;
+    width: 60px;
+    border: 3px solid #eee;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.about-project .team-project5 h5 {
+        margin-right: 85px;
+        margin-top: -30px;
+}
+.about-project .iteam-project5 {
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    width: 30%;
+}
+.about-project .iteam-project5 button {
+    padding: 10px 40px;
+    color: #fff;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 50px;
+    display: none;
+}
+
+
+
+.about-project .team-project6 {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+    height: 250px;
+} 
+.about-project .team-project6 a {
+    color: #197ece;
+}
+.about-project .team-project6 h2 {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.about-project .team-project6 p {
+    padding-right: 20px;
+    width: 50%;
+}
+.about-project .team-project6 img {
+    border-radius: 50%;
+    width: 60px;
+    border: 3px solid #eee;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.about-project .team-project6 h5 {
+        margin-right: 85px;
+        margin-top: -30px;
+}
+.about-project .iteam-project6 {
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    width: 30%;
+}
+.about-project .iteam-project6 button {
+    padding: 10px 40px;
+    color: #fff;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 50px;
+    display: none;
+}
+
+
+.about-project .team-project7 {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+    height: 250px;
+} 
+.about-project .team-project7 a {
+    color: #197ece;
+}
+.about-project .team-project7 h2 {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.about-project .team-project7 p {
+    padding-right: 20px;
+    width: 50%;
+}
+.about-project .team-project7 img {
+    border-radius: 50%;
+    width: 60px;
+    border: 3px solid #eee;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.about-project .team-project7 h5 {
+        margin-right: 85px;
+        margin-top: -30px;
+}
+.about-project .iteam-project7 {
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    width: 30%;
+}
+.about-project button {
+    padding: 10px 40px;
+    color: #fff;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    border-radius: 50px;
+    display: none;
+}
+.hero5 .modal-content form {
+    margin-top: -40px !important;
+}
+
+
+/* End section project */
 
 @media (max-width: 500px) {
     .star button{
         position: absolute;
-    right: 150px;
+    right: 350px;
     }
     .hero1 .team {
         width: 90%;
@@ -1199,4 +3440,683 @@ body {
         width: 100px;
 
     }
+    .about-work .about-work-flex {
+        display: block;
+        
+       
+    }
+    .about-work .about-work-flex1 {
+        display: block;
+    }
+    .about-work .about-work-flex2 {
+        display: block;
+    }
+    .about-work .about-work-flex3 {
+        display: block;
+    }
+    .about-work .about-work-flex4 {
+        display: block;
+    }
+    .about-work .about-work-flex5 {
+        display: block;
+    }
+    .about-work .about-flex1 {
+        width: 90%;
+        height: 325px;
+        background: #fff;
+        border-radius: 10px;
+     }
+     .about-work .about-flex2 {
+        width: 90%;
+        height: 325px;
+        background: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+     }
+     .about-work .about-flex3 {
+        width: 90%;
+        height: 325px;
+        background: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+     }
+     .about-work .about-flex4 {
+        width: 90%;
+        height: 325px;
+        background: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+     }
+     .about-work .about-flex5 {
+        width: 90%;
+        height: 325px;
+        background: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+     }
+     .about-work .about-flex6 {
+        width: 90%;
+        height: 325px;
+        background: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+     }
+     
+     .about-work .about-flex7 {
+        width: 90%;
+        height: 325px;
+        background: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+     }
+     .about-work .about-flex8 {
+        width: 90%;
+        height: 325px;
+        background: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+     }
+     .about-work .about-flex9 {
+        width: 90%;
+        height: 325px;
+        background: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+     }
+     .about-work .about-flex10 {
+        width: 90%;
+        height: 325px;
+        background: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+     }
+     .about-work .about-flex11 {
+        width: 90%;
+        height: 325px;
+        background: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+     }
+     .about-work .about-flex10 {
+        width: 90%;
+        height: 325px;
+        background: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+     }
+     .about-work .about-flex11 {
+        width: 90%;
+        height: 325px;
+        background: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+     }
+     .about-work .about-flex12 {
+        width: 90%;
+        height: 325px;
+        background: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+     }
+     .about-work .about-flex13 {
+        width: 90%;
+        height: 325px;
+        background: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+     }
+     .about-work .about-flex14 {
+        width: 90%;
+        height: 325px;
+        background: #fff;
+        border-radius: 10px;
+        margin-top: 20px;
+     }
+     .footer-work .footer-flex {
+        display: block;
+     }
+     .team-enform {
+        display: block;
+     }
+     .team-enform1 {
+        display: block;
+     }
+     .team-enform2 {
+        display: block;
+     }
+     .team-enform3 {
+        display: block;
+     }
+     .team-enform4 {
+        display: block;
+     }
+     .about-enform .iteam-enform1 {   
+        width: 100%;
+        
+    }
+    .about-enform .iteam-enform1 img {   
+        margin-right: 150px;
+        
+    }
+    .about-enform .iteam-enform1 button {   
+        margin-right: 25px;
+        
+    }
+    .about-enform .iteam-enform2 {   
+        width: 100%;
+        
+    }
+    .about-enform .iteam-enform2 img {   
+        margin-right: 150px;
+        
+    }
+    .about-enform .iteam-enform2 button {   
+        margin-right: 25px;
+        
+    }
+    .about-enform .iteam-enform3 {   
+        width: 100%;
+        
+    }
+    .about-enform .iteam-enform3 img {   
+        margin-right: 150px;
+        
+    }
+    .about-enform .iteam-enform3 button {   
+        margin-right: 25px;
+        
+    }
+    .about-enform .iteam-enform4 {   
+        width: 100%;
+        
+    }
+    .about-enform .iteam-enform4 img {   
+        margin-right: 150px;
+        
+    }
+    .about-enform .iteam-enform4 button {   
+        margin-right: 25px;
+        
+    }
+    .about-enform .iteam-enform5 {   
+        width: 100%;
+        
+    }
+    .about-enform .iteam-enform5 img {   
+        margin-right: 150px;
+        
+    }
+    .about-enform .iteam-enform5 button {   
+        margin-right: 25px;
+        
+    }
+    .about-enform .iteam-enform6 {   
+        width: 100%;
+        
+    }
+    .about-enform .iteam-enform6 img {   
+        margin-right: 150px;
+        
+    }
+    .about-enform .iteam-enform6 button {   
+        margin-right: 25px;
+        
+    }
+    .about-enform .iteam-enform7 {   
+        width: 100%;
+        
+    }
+    .about-enform .iteam-enform7 img {   
+        margin-right: 150px;
+        
+    }
+    .about-enform .iteam-enform7 button {   
+        margin-right: 25px;
+        
+    }
+    .about-enform .iteam-enform8 {   
+        width: 100%;
+        
+    }
+    .about-enform .iteam-enform8 img {   
+        margin-right: 150px;
+        
+    }
+    .about-enform .iteam-enform8 button {   
+        margin-right: 25px;
+        
+    }
+    .about-enform .iteam-enform9 {   
+        width: 100%;
+        
+    }
+    .about-enform .iteam-enform9 img {   
+        margin-right: 150px;
+        
+    }
+    .about-enform .iteam-enform9 button {   
+        margin-right: 25px;
+        
+    }
+    .about-enform .iteam-enform10 {   
+        width: 100%;
+        
+    }
+    .about-enform .iteam-enform10 img {   
+        margin-right: 150px;
+        
+    }
+    .about-enform .iteam-enform10 button {   
+        margin-right: 25px;
+        
+    }
+    .about-enform .iteam-enform11 {   
+        width: 100%;
+        
+    }
+    .about-enform .iteam-enform11 img {   
+        margin-right: 150px;
+        
+    }
+    .about-enform .iteam-enform11 button {   
+        margin-right: 25px;
+        
+    }
+    .about-enform .iteam-enform12 {   
+        width: 100%;
+        
+    }
+    .about-enform .iteam-enform12 img {   
+        margin-right: 150px;
+        
+    }
+    .about-enform .iteam-enform12 button {   
+        margin-right: 25px;
+        
+    }
+    .about-enform .iteam-enform13 {   
+        width: 100%;
+        
+    }
+    .about-enform .iteam-enform13 img {   
+        margin-right: 150px;
+        
+    }
+    .about-enform .iteam-enform13 button {   
+        margin-right: 25px;
+        
+    }
+
+    .about-enform .iteam-enform14 {   
+        width: 100%;
+        
+    }
+    .about-enform .iteam-enform14 img {   
+        margin-right: 150px;
+        
+    }
+    .about-enform .iteam-enform14 button {   
+        margin-right: 25px;
+        
+    }
+    .about-enform .iteam-enform15 {   
+        width: 100%;
+        
+    }
+    .about-enform .iteam-enform15 img {   
+        margin-right: 150px;
+        
+    }
+    .about-enform .iteam-enform15 button {   
+        margin-right: 25px;
+        
+    }
+    .about-enform .iteam-enform16 {   
+        width: 100%;
+        
+    }
+    .about-enform .iteam-enform16 img {   
+        margin-right: 150px;
+        
+    }
+    .about-enform .iteam-enform16 button {   
+        margin-right: 25px;
+        
+    }
+    .about-enform .iteam-enform {   
+        width: 100%;
+        
+    }
+    .about-enform .iteam-enform img {   
+        margin-right: 150px;
+        
+    }
+    .about-enform .iteam-enform button {   
+        margin-right: 25px;
+        
+    }
+   
+
+
+
+
+
+
+
+    .about-project .team-project {
+        width: 100%;
+        height: 350px;
+    }
+    .about-project .team-project .img-project {
+        display: none;
+    }
+    .about-project .team-project h5 {
+        display: none;
+    }
+    .about-project .team-project .iteam-project{
+        display: none;
+    }
+    .team-project {
+        position: relative;
+    }
+    .about-project .btn-project {
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 300px;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+    .about-project .team-project1 {
+        width: 100%;
+        height: 350px;
+    }
+    .about-project .team-project1 .img-project {
+        display: none;
+    }
+    .about-project .team-project1 h5 {
+        display: none;
+    }
+    .about-project .team-project1 .iteam-project1{
+        display: none;
+    }
+    .team-project1 {
+        position: relative;
+    }
+    .about-project .btn-project {
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 300px;
+        cursor: pointer;
+    }
+
+
+
+    .about-project .team-project2 {
+        width: 100%;
+        height: 350px;
+    }
+    .about-project .team-project2 .img-project {
+        display: none;
+    }
+    .about-project .team-project2 h5 {
+        display: none;
+    }
+    .about-project .team-project2 .iteam-project2{
+        display: none;
+    }
+    .team-project2 {
+        position: relative;
+    }
+    .about-project .btn-project {
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 300px;
+        cursor: pointer;
+    }
+
+
+
+
+    .about-project .team-project3 {
+        width: 100%;
+        height: 350px;
+    }
+    .about-project .team-project3 .img-project {
+        display: none;
+    }
+    .about-project .team-project3 h5 {
+        display: none;
+    }
+    .about-project .team-project3 .iteam-project3{
+        display: none;
+    }
+    .team-project3 {
+        position: relative;
+    }
+    .about-project .btn-project {
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 300px;
+        cursor: pointer;
+    }
+
+
+
+    .about-project .team-project4 {
+        width: 100%;
+        height: 350px;
+    }
+    .about-project .team-project4 .img-project {
+        display: none;
+    }
+    .about-project .team-project4 h5 {
+        display: none;
+    }
+    .about-project .team-project4 .iteam-project4{
+        display: none;
+    }
+    .team-project4 {
+        position: relative;
+    }
+    .about-project .btn-project {
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 300px;
+        cursor: pointer;
+    }
+
+
+
+    .about-project .team-project5 {
+        width: 100%;
+        height: 350px;
+    }
+    .about-project .team-project5 .img-project {
+        display: none;
+    }
+    .about-project .team-project5 h5 {
+        display: none;
+    }
+    .about-project .team-project5 .iteam-project5{
+        display: none;
+    }
+    .team-project5 {
+        position: relative;
+    }
+    .about-project .btn-project {
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 300px;
+        cursor: pointer;
+    }
+
+
+
+    .about-project .team-project6 {
+        width: 100%;
+        height: 350px;
+    }
+    .about-project .team-project6 .img-project {
+        display: none;
+    }
+    .about-project .team-project6 h5 {
+        display: none;
+    }
+    .about-project .team-project6 .iteam-project6{
+        display: none;
+    }
+    .team-project6 {
+        position: relative;
+    }
+    .about-project .btn-project {
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 300px;
+        cursor: pointer;
+    }
+
+
+    .about-project .team-project7 {
+        width: 100%;
+        height: 350px;
+    }
+    .about-project .team-project7 .img-project {
+        display: none;
+    }
+    .about-project .team-project7 h5 {
+        display: none;
+    }
+    .about-project .team-project7 .iteam-project7{
+        display: none;
+    }
+    .team-project7 {
+        position: relative;
+    }
+    .about-project .btn-project {
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 300px;
+        cursor: pointer;
+    }
+    .hero .text1 h1 {
+        margin-left: 100px;
+    }
+    .hero .text1 h2 {
+        margin-left: 100px;
+    }
+    .hero {
+        position: relative;
+    }
+    .hero form input {
+        width: 320px;
+        margin-top: 50px;
+        position: absolute;
+        top: 159px;
+        left: 210px;
+        
+    }
+    .hero {
+        width: 100%;
+    }
+    .hero form button {
+        padding: 10px;
+        position: absolute;
+        top: 210px;
+        right: 300px;
+    }
+    .about .content {
+        display: block;
+    }
+    .about iframe {
+        width: 350px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .about .text2 i {
+        display: none;
+    }
+    .about h2 {
+        text-align: center;
+    }
+    .star {
+        position: relative;
+    }
+    .star button {
+        position: absolute;
+        top: 140px;
+        right: 150px;
+        
+    }
+    .hero1 .team {
+        width: 100%;
+    }
+    .hero2 .team2 iframe {
+        width: 350px;
+    }
+    .hero5 .modal-content {
+        width: 50%;
+        margin: -100px auto;
+        
+    }
+    .hero5 .modal-content {
+        width: 70% !important;
+    }
+    .hero5 .modal-content form {
+        margin-top: -50px;
+    }
+    .hero5 .modal-content #btn2 {
+        margin-top: -50px !important;
+    }
+    header {
+        width: 100%;
+    }
+    header .mains span {
+        display: none;
+        
+        
+    }
+    header .mains .headera {
+        display: none;
+
+    }
+    header .headerr {
+        display: block;
+        margin-right: 100px;
+        margin-top: 20px;
+    }
+
+
+
+    .header1 {
+        width: 100%;
+    }
+    .header1 .mains span {
+        display: none;
+        
+        
+    }
+    .header1 .mains .headera {
+        display: none;
+
+    }
+    .header1 .headerr {
+        display: block;
+        margin-right: 100px;
+        margin-top: 20px;
+    }
+
 }
